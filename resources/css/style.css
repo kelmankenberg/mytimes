@@ -51,14 +51,27 @@ h3 {
     text-transform: uppercase
 }
 
-div {
-    border: 1px solid black;
-}
-
 .content {
     display: flex;
+    width: 1232px;
     margin: 0 auto 78px auto;
     padding-top: 116px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.stories .text-content {
+    height: 250px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
 
 .column {
@@ -99,7 +112,7 @@ p {
   -webkit-margin-end: 0px;
 }
 
-.story-text {
+.text-content {
     font-family: Georgia;
     font-size: 17px;
     color: black;
@@ -112,6 +125,8 @@ p {
     font-weight: bold;
     font-size: 30px;
     color: white;
+    display: flex;
+    flex-direction: row;
 }
 
 .lead-story span{
