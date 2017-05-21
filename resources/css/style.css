@@ -80,15 +80,15 @@ h3 {
     margin-right: 32px;
 }
 
-.column.large {
+.large {
     width: 630px;
 }
 
-.column.medium {
+.medium {
     width: 300px;
 }
 
-.column.small {
+.small {
     width: 240px;
 }
 
